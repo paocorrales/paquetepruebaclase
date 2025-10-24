@@ -1,0 +1,26 @@
+---
+title: "Viñieta de prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paquetepruebaclase)
+```
+
+Esta es una viñieta de prueba, podemos demostrar el uso de funciones.
+
+```{r}
+suma(2, 2)
+```
+
