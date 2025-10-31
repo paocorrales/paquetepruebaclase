@@ -17,7 +17,7 @@ suma <- function(x, y) {
 
   if (!is.numeric(x)) {
     cli::cli_abort(c(
-      "i" = "El argumento x no es númerico"
+      "i" = "El argumento x no es num\u00e9rico"
     ))
 
   }
